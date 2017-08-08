@@ -1,4 +1,4 @@
-# Setting up Smart Control Policy
+# Setting up a Smart Control Policy
 
 #Introduction
 
