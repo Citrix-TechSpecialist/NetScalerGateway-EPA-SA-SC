@@ -1,6 +1,6 @@
 # Table of Contents
 
-1. [Module 1: Setting up a Pre-Auth EPA scan policy](./Module1)
+1. [Module 1: Setting up a Pre-Auth EPA Scan Policy](./Module1)
 
 2. [Module 2: Setting up a Smart Control Policy](./Module2)
 
