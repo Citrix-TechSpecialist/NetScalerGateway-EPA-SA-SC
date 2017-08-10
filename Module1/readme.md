@@ -6,9 +6,14 @@
 
 We can set up a simple preAuthentication scan, which is checked before allowing the client to even see the login page. For my test here, I used NetScaler 12, and tested off a Mac, and a RDS for Windows. It is easy to manipulate a file on the desktop for an example and here we used the file test.txt in either /Library for the Mac, or C:/Users/user1/Desktop for the pc.
 
-Here are the policies used:
+PC).	Here is the policy used for a PC Check: CLIENT.FILE('C:\\\\Users\\\\user1\\\\Desktop\\\\test.txt') EXISTS
+
+Doing the file on the PC is simple for sure. C:/Users/user1/Desktop..... test.txt......
+
+----->
+
+MacOS).	Here is the policy used for a Mac:
 CLIENT.FILE(/Library/test.txt) EXISTS
-CLIENT.FILE('C:\\\\Users\\\\user1\\\\Desktop\\\\test.txt') EXISTS
 
 To do the file on my mac, I used the following commands in a terminal window:
 
@@ -22,7 +27,11 @@ To do the file on my mac, I used the following commands in a terminal window:
 
 	or sudo rm -rf /Library/test-ish.txt
 
-Doing the file on the PC is simple foe sure. C:/Users/user1/Desktop.....
+Testing the Mac without the expected file: FAIL
+![docker image layers](./images/MacPreFail.gif)
+
+Testing the Mac with the expected file: PASS
+![docker image layers](./images/MacPrepass.gif)
 
 ## Exercises 
 
