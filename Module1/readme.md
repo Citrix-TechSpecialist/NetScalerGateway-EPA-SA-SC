@@ -6,6 +6,13 @@
 
 We can set up a simple preAuthentication scan, which is checked before allowing the client to even see the login page. For my test here, I used NetScaler 12, and tested off a Mac, and we used a RDServer for Windows. It is easy to manipulate a file on the desktop for an example, and here we used the file test.txt in either /Library for the Mac, or C:/Users/user1/Desktop for the pc.
 
+The policies on the NetScaler Gateway
+![A policy for the PC and one for the MAC](./images/EPAPolicy.jpeg)
+Select which type to bind to the vServer
+![Select the type as you bind to the vServer](./images/type.jpeg)
+Bind to the vServer
+![Bind to the vServer](./images/bind.jpeg)
+
 PC).	Here is the policy used for a PC Check: CLIENT.FILE('C:\\\\Users\\\\user1\\\\Desktop\\\\test.txt') EXISTS
 
 Doing the file on the PC is simple for sure. C:/Users/user1/Desktop..... test.txt......
