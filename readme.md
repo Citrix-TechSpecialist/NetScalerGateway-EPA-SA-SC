@@ -12,7 +12,8 @@ This session will focus on Security at the edge with NetScaler ADC for XA/XD env
 
 # Pre-requisites
 
-One will need an environment with NetScaler Gateway and the ability to launch a session. I am using the SD-WAN environment for the moment.
+One will need an environment with NetScaler Gateway and the ability to launch a session. I am using the SD-WAN environment for the moment. SmartAccess is supported in NetScaler 8.0. 
+SmartControl requires NetScaler Gateway 11.0.65.x or higher.
 
 # Resources
 [https://www.citrix.com/content/dam/citrix/en_us/documents/guide/demo-guide-for-smart-access-smart-control.pdf](https://www.citrix.com/content/dam/citrix/en_us/documents/guide/demo-guide-for-smart-access-smart-control.pdf)
