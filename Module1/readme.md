@@ -10,6 +10,12 @@ PC).	Here is the policy used for a PC Check: CLIENT.FILE('C:\\\\Users\\\\user1\\
 
 Doing the file on the PC is simple for sure. C:/Users/user1/Desktop..... test.txt......
 
+Testing the Mac without the expected file: FAIL
+![NetScaler EPA Failed](./images/PCPreFail.gif)
+
+Testing the Mac with the expected file: PASS
+![NetScaler EPA Passed](./images/PCPrePass.gif)
+
 ----->
 
 MacOS).	Here is the policy used for a Mac:
