@@ -28,10 +28,10 @@ To do the file on my mac, I used the following commands in a terminal window:
 	or sudo rm -rf /Library/test-ish.txt
 
 Testing the Mac without the expected file: FAIL
-![docker image layers](./images/MacPreFail.gif)
+![NetScaler EPA Failed](./images/MacPreFail.gif)
 
 Testing the Mac with the expected file: PASS
-![docker image layers](./images/MacPrepass.gif)
+![NetScaler EPA Passed](./images/MacPrepass.gif)
 
 ## Exercises 
 
