@@ -31,7 +31,7 @@ Testing the Mac without the expected file: FAIL
 ![NetScaler EPA Failed](./images/MacPreFail.gif)
 
 Testing the Mac with the expected file: PASS
-![NetScaler EPA Passed](./images/MacPrepass.gif)
+![NetScaler EPA Passed](./images/MacPrePass.gif)
 
 ## Exercises 
 
