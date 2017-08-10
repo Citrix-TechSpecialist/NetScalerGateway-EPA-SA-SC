@@ -13,7 +13,8 @@ Select which type to bind to the vServer
 Bind to the vServer
 ![Bind to the vServer](./images/bind.jpeg)
 
-PC).	Here is the policy used for a PC Check: CLIENT.FILE('C:\\\\Users\\\\user1\\\\Desktop\\\\test.txt') EXISTS
+## PC).
+Here is the policy used for a PC Check: CLIENT.FILE('C:\\\\Users\\\\user1\\\\Desktop\\\\test.txt') EXISTS
 
 Doing the file on the PC is simple for sure. C:/Users/user1/Desktop..... test.txt......
 
@@ -25,7 +26,8 @@ Testing the PC with the expected file: PASS
 
 ----->
 
-MacOS).	Here is the policy used for a Mac:
+## MacOS).
+Here is the policy used for a Mac:
 CLIENT.FILE(/Library/test.txt) EXISTS
 
 To do the file on my mac, I used the following commands in a terminal window:
