@@ -11,7 +11,7 @@
 
 ## Exercises 
 
-# Reset the Sandbox Environment 
+## Thankyou 
 
 ### Shortcuts
 1. [Module 1: Setting up a Pre-Auth EPA scan policy](../Module1)

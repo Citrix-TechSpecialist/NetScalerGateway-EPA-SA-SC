@@ -8,7 +8,7 @@
 
 # Introduction
 
-This session will focus on Security at the edge with NetScaler ADC for XA/XD environment. You will gain hands on experience on how to trigger End Point Analysis Scans (EPA) on the NS to enforce strong security posture at the perimeter prior to Gateway logon. You will also gain insight on how to enforce security over XA/XD sessions using Smart Access and Smart Control.
+This session will focus on Security at the Edge with NetScaler ADC for XA/XD environment. You will gain hands on experience on how to trigger End Point Analysis Scans (EPA) on the NS to enforce strong security posture at the perimeter prior to Gateway logon. You will also gain insight on how to enforce security over XA/XD sessions using Smart Access and Smart Control.
 
 # Pre-requisites
 
