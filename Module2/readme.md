@@ -2,10 +2,15 @@
 
 #Introduction
 
-~8 min to configure and test
+Smart Control: Allows decisions to be made at the edge of your network, blocking access to resources when the user has not even gained access into the corporate network yet.
 
-    Policy expression checks group membership based on EPA scan and blocks copy/paste and local drive redirection.
+~8 min to complete and to test end user experience, given a working environment where one can log in and launch a session, and administer.
 
+Policy expression checks group membership based on EPA scan and blocks copy/paste and local drive redirection.
+
+![SC1](./images/SC1.jpeg)
+![SC2](./images/SC2.jpeg)
+![SC3](./images/SC3.jpeg)
 
 
 ## Exercises 

@@ -63,7 +63,9 @@ Testing the Mac without the expected file: FAIL
 Testing the Mac with the expected file: PASS
 ![NetScaler EPA Passed](./images/MacPrePass.gif)
 
-## Exercises 
+## Exercises
+
+Take an existng and working Gateway vServer, and add a PreAuth policy for a file on the Mac, and one for a file ont he PC. Then test.
 
 ## Thank you. 
 
