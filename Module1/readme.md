@@ -2,19 +2,26 @@
 
 #Introduction
 
-~8 min to complete and to test end user experience
+~8 min to complete and to test end user experience, given a working environment where one can log in and launch a session, and administer.
 
-We can set up a simple preAuthentication scan, which is checked before allowing the client to even see the login page. For my test here, I used NetScaler 12, and tested off a Mac, and we used a RDServer for Windows. It is easy to manipulate a file on the desktop for an example, and here we used the file test.txt in either /Library for the Mac, or C:/Users/user1/Desktop for the pc.
+We can set up a simple preAuthentication scan, which is checked before allowing the client to even see the login page. For my test here, I used NetScaler 12, and tested off a Mac, and we used a RDServer for Windows. It is easy to manipulate a file on the windows desktop for an example, and here we used the file test.txt in either /Library for the Mac, or C:/Users/user1/Desktop for the pc. The Mac was a little trickier, so I share the commands one could paste into a terminal window. Staying in /Library seemed important.... (sb).
 
-The policies on the NetScaler Gateway
-![A policy for the PC and one for the MAC](./images/EPAPolicy.jpeg)
+![A policy for the MAC](./images/NSepaMacAllow.gif)
+
+![A policy for the PC](./images/NSepaPCAllow.gif)
+
+Add the policies on the working NetScaler Gateway. Make sure your FQDN points to the vServer and VIP you add the policies to.
+![Ping your FQDN](./images/ping.jpeg)
 Select which type to bind to the vServer
 ![Select the type as you bind to the vServer](./images/type.jpeg)
 Bind to the vServer
 ![Bind to the vServer](./images/bind.jpeg)
 
 ## PC).
-Here is the policy used for a PC Check: CLIENT.FILE('C:\\\\Users\\\\user1\\\\Desktop\\\\test.txt') EXISTS
+Here is the policy used for a PC Check: * I can not write it here because the client keeps rendering it and I have to escape out. You will be good to type it in. You will want the 4 slashes, like in the screen shot. * You can use the GUI to add it as client security, file, and then type it in the 4 slashes.....    CLIENT.FILE('C:\\\\....
+
+(I honestly typed in 4 \'s and it is showing 2 in my view of the text above. Use the picture below for an example:)
+![For the PC, you want the four \'s](./images/policy.jpeg)
 
 Doing the file on the PC is simple for sure. C:/Users/user1/Desktop..... test.txt......
 
@@ -29,6 +36,9 @@ Testing the PC with the expected file: PASS
 ## MacOS).
 Here is the policy used for a Mac:
 CLIENT.FILE(/Library/test.txt) EXISTS
+You can use the GUI under client security, file,... to specify /Library/test.txt.
+
+![CLIENT.FILE(/Library/test.txt](./images/policy.jpeg)
 
 To do the file on my mac, I used the following commands in a terminal window:
 
