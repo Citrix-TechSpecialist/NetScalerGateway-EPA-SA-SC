@@ -6,6 +6,9 @@
 
 We can set up a simple preAuthentication scan, which is checked before allowing the client to even see the login page. For my test here, I used NetScaler 12, and tested off a Mac, and we used a RDServer to test Windows. It is easy to manipulate a file on the windows desktop for an example, and here we used the file test.txt in either /Library for the Mac, or C:/Users/user1/Desktop for the pc. The Mac was a little trickier, so I share the commands one could paste into a terminal window. Staying in /Library seemed important.... :).
 
+Add the Profile and note the EPA Group you set:
+![Add a profile](./images/fileallow.jpeg)
+
 ## MacOS).
 ![A policy for the MAC](./images/NSepaMacAllow.gif)
 The above inage shows a policy being added for a Mac.
