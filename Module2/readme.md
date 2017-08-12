@@ -2,7 +2,7 @@
 
 #Introduction
 
-Smart Control: Allows decisions to be made at the edge of your network, blocking access to resources when the user has not even gained access into the corporate network yet.
+Smart Control: Allows decisions to be made at the edge of your network, blocking access to resources when in the case of a PreAuthorization scan, the user has not even gained access into the corporate network yet.
 
 ~8 min to complete and to test end user experience, given a working environment where one can log in and launch a session, and administer.
 

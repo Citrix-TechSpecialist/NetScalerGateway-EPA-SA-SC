@@ -65,7 +65,7 @@ Testing the Mac with the expected file: PASS
 
 ## Exercises
 
-Take an existng and working Gateway vServer, and add a PreAuth policy for a file on the Mac, and one for a file ont he PC. Then test.
+Take an existng and working Gateway vServer, and add a PreAuth policy for a file on the Mac, and one for a file on the PC. Then test.
 
 ## Thank you. 
 
