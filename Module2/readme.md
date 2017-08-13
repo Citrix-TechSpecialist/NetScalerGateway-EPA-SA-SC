@@ -30,7 +30,7 @@ My ICA Access Profile, "FileAllow", is set to allow defaults for all but Client 
 
 ![ICAAccessProfile](./images/ICAAccessProfile.jpeg)
 
-Validating and testing is as easy as watching th hts increment on the policy (Under Gateway, Policies, ICA, and by testing if you can cut/paste to and from the launched desktop. I see two hits in the image below.
+Validating and testing is as easy as watching the hits increment on the policy (Under Gateway, Policies, ICA, and by testing if you can cut/paste to and from the launched desktop. I see two hits in the image below.
 
 ![Policy](./images/hits.jpeg)
 
