@@ -15,15 +15,19 @@ Policy expression checks group membership based on EPA scan and blocks copy/past
 ## Exercises 
 
 First, check the Default EPA Group setting from the EPA exercise before. I have "FileAllow1" below. Tweak this, or the policy, and you stop matching and enforcing.....
+
 ![PreAuthGroup](./images/PreAuthGroup.jpeg)
 
 My ICA Policy is set to match "FileAllow1" as marked in the PreAuth EPA Scan. On matching, it sets the Action to FileAllow1. Tweak this, or the Default EPA Group setting on the PreAuth scan (above), and you stop matching and enforcing.....
+
 ![ICAPolicy](./images/ICAPolicy.jpeg)
 
 My ICA Action, "FileAllow1", is set to ICA Access profile "FileAllow".
+
 ![ICAAction](./images/ICAAction.jpeg)
 
 My ICA Access Profile, "FileAllow", is set to allow defaults for all but Client Clipboard Redirection, which I am marked as Disabled.
+
 ![ICAAccessProfile](./images/ICAAccessProfile.jpeg)
 
 
